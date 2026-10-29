@@ -1,32 +1,25 @@
 # Skills
 
-## Languages
+## Programming
 
-Python is my main language and the one I am fastest in. JavaScript second,
-mostly for front ends and serverless functions. SQL well enough to read a query
-plan and fix the obvious problem.
+Python is my main language and the one I use most, at an advanced level. I use SQL at an intermediate level, R for project work, and Git for version control.
 
-## Retrieval and evaluation
+## Machine learning and statistics
 
-Chunking strategies and why they matter more than people expect. Keyword versus
-dense retrieval, and when the cheaper one is good enough. Cosine similarity.
-Building labelled evaluation sets. Inter annotator agreement with Cohen's
-kappa. LLM as judge, including the part where you check the judge against human
-labels before trusting it.
+Supervised classification with random forests, gradient boosted trees and logistic regression. Bayesian and Gaussian process regression. Model evaluation under class imbalance using F1, MCC and recall, and inter-rater agreement with Cohen's kappa.
 
-## Infrastructure
+## Data and deployment
 
-Vercel and Render for deployment. PostgreSQL, including Neon. GitHub Actions
-for CI. Docker to the level of writing a working Dockerfile, not to the level
-of running a cluster.
+Apache Spark (PySpark) pipelines on large datasets, MySQL, and pandas and scikit-learn. I have deployed apps on Render, Vercel and Streamlit, and set up continuous integration with GitHub Actions.
 
-## Models and tools
+## Language models
 
-Groq for inference. Langfuse for tracing and scoring. scikit-learn for
-classical baselines, which are still the right first move more often than not.
+Building with the Anthropic and Groq APIs, prompt design measured against labelled data, retrieval over my own notes, and guardrails.
 
-## What I am still learning
+## Spoken languages
 
-Agent frameworks beyond simple tool calling. I have built tool loops by hand
-and want to understand what the frameworks actually buy you. Also Kubernetes,
-which I keep deferring.
+I speak English, Arabic and Somali fluently. I am learning Korean at an intermediate level and Japanese as a beginner.
+
+## Still learning
+
+Dense embeddings and vector databases, Docker, and Korean reading fluency.

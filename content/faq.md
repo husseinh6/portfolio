@@ -2,29 +2,24 @@
 
 ## Are you looking for a new role?
 
-Yes. I am open to AI engineering roles, remote or hybrid, and I am particularly
-interested in teams where evaluation is taken seriously.
-
-## Where are you based and can you work across time zones?
-
-Bangalore, India. I work remotely and I overlap comfortably with European hours
-and the early part of the US east coast day.
+Yes. I am looking for junior and graduate data science roles, and I am open to remote, hybrid or on-site work and to relocating anywhere in the UK.
 
 ## What is your notice period?
 
-Thirty days.
+One week.
 
-## Do you prefer backend or frontend work?
+## Do you have the right to work in the UK? Do you need visa sponsorship?
 
-Backend. I can build a front end when one is needed and I am not afraid of CSS,
-but the work I do best is on the server and in the data.
+I have indefinite leave to remain in the UK, so I do not need sponsorship.
+
+## Where are you based and can you work European hours?
+
+I am in Birmingham, UK, so I work on UK time and overlap fully with European hours.
 
 ## Can you share a reference?
 
-Yes, on request, from my current manager and from a colleague on the support
-team who used the assistant daily.
+Yes, references are available on request.
 
-## What are you not looking for?
+## How can I contact you?
 
-A role with no evaluation story, where success is measured by whether the demo
-impressed someone. I have done that and it does not end well.
+The best way is by email at hamsahussein119@gmail.com, or through my LinkedIn profile at linkedin.com/in/hamsa-hussein-6b1a5a264.

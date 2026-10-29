@@ -1,20 +1,11 @@
 # About
 
-I am Sample Person, an AI engineer. I build systems that put language models
-into production: retrieval pipelines, evaluation harnesses, and the plumbing
-that keeps them honest once real users arrive.
+I am Hamsa Hussein, a data scientist. I have an MSc in Data Science and Computational Intelligence from Coventry University, finished with a Distinction, and a BSc in Mathematics from Bilkent University in Turkey.
 
-I am based in Bangalore, India, and I work remotely. I am comfortable across
-the stack, but my centre of gravity is the backend: Python services, retrieval,
-and the measurement layer that tells you whether a change helped or hurt.
+I am based in Birmingham, UK. I am open to relocating, and to remote, hybrid or on-site work.
 
-Before moving into AI work I spent three years as a full stack developer, which
-is where I learned that most production failures are boring: a missing index, a
-silent retry, a config value nobody reviewed.
+I like building end-to-end projects on my own initiative: a fraud detection pipeline in Apache Spark, an autonomous data analyst agent, and an MSc dissertation that combined topological data analysis with NLP. The thread running through all of them is measurement. I would rather choose a model I can trust and explain than the one with the best raw score.
 
-I studied computer science and finished with a focus on machine learning. My
-dissertation looked at how retrieval quality limits what a language model can
-do, which turned out to be the most useful thing I learned.
+I completed my MSc alongside full-time shift work in a manufacturing plant, which taught me to plan carefully and keep going when time is short.
 
-What I want next is a role where the evaluation story matters as much as the
-demo. I am happiest on a team that measures things.
+What I want next is a junior or graduate data science role where models are judged on evidence, and where I can keep learning from people who are better than me.
