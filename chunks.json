@@ -1,6 +1,6 @@
 {
  "strategy": "heading",
- "built_at": "2026-10-23T13:35:38Z",
+ "built_at": "2026-10-29T14:48:37Z",
  "files": [
   "about.md",
   "experience.md",
@@ -11,86 +11,114 @@
   {
    "file": "about.md",
    "heading": "about",
-   "text": "I am Sample Person, an AI engineer. I build systems that put language models into production: retrieval pipelines, evaluation harnesses, and the plumbing that keeps them honest once real users arrive.\n\nI am based in Bangalore, India, and I work remotely. I am comfortable across the stack, but my centre of gravity is the backend: Python services, retrieval, and the measurement layer that tells you whether a change helped or hurt.\n\nBefore moving into AI work I spent three years as a full stack developer, which is where I learned that most production failures are boring: a missing index, a silent retry, a config value nobody reviewed.\n\nI studied computer science and finished with a focus on machine learning. My dissertation looked at how retrieval quality limits what a language model can do, which turned out to be the most useful thing I learned.\n\nWhat I want next is a role where the evaluation story matters as much as the demo. I am happiest on a team that measures things.",
+   "text": "I am Hamsa Hussein, a data scientist. I have an MSc in Data Science and Computational Intelligence from Coventry University, finished with a Distinction, and a BSc in Mathematics from Bilkent University in Turkey.\n\nI am based in Birmingham, UK. I am open to relocating, and to remote, hybrid or on-site work.\n\nI like building end-to-end projects on my own initiative: a fraud detection pipeline in Apache Spark, an autonomous data analyst agent, and an MSc dissertation that combined topological data analysis with NLP. The thread running through all of them is measurement. I would rather choose a model I can trust and explain than the one with the best raw score.\n\nI completed my MSc alongside full-time shift work in a manufacturing plant, which taught me to plan carefully and keep going when time is short.\n\nWhat I want next is a junior or graduate data science role where models are judged on evidence, and where I can keep learning from people who are better than me.",
    "id": "about-1",
-   "chars": 985
+   "chars": 975
   },
   {
    "file": "experience.md",
-   "heading": "AI Engineer, Northwind Data (2024 to present)",
-   "text": "AI Engineer, Northwind Data (2024 to present). I own the retrieval layer of a customer support assistant that handles about four thousand conversations a week. When I joined, the assistant answered from a single flat prompt and nobody could say how often it was right.\n\nI built the first evaluation harness: a set of 120 labelled questions, scored automatically on every deploy. The first run told us we were at 61 percent. Within two months we were at 84 percent, and the thing that moved the number was not the model. It was chunking. Splitting documents on headings instead of on a fixed character count was worth 14 points on its own.\n\nI also added a refusal path. The assistant now says it does not know rather than inventing a policy, which cut escalations from the support team by a third.",
+   "heading": "Production Operative, Draexlmaier Group (JLR supply chain), Nov 2024 to present",
+   "text": "Production Operative, Draexlmaier Group (JLR supply chain), Nov 2024 to present. I work in a detail-critical, fast-paced production environment supplying Jaguar Land Rover, on rotating morning, afternoon and night shifts. I kept my output and accuracy consistent while completing my MSc with a Distinction and building an independent research portfolio at the same time.\n\nI spotted a workstation issue that was affecting colleagues, proposed a fix through the right channel, and it was adopted across the team. My team leader and colleagues describe me as reliable and precise, and I am the person people go to when the team leader is away.",
    "id": "experience-1",
-   "chars": 796
+   "chars": 640
   },
   {
    "file": "experience.md",
-   "heading": "Full Stack Developer, Harbour Systems (2021 to 2024)",
-   "text": "Full Stack Developer, Harbour Systems (2021 to 2024). I worked on an internal logistics dashboard used by about two hundred staff. Python on the back, React on the front, PostgreSQL underneath.\n\nThe work I am proudest of is unglamorous: I replaced a nightly batch job that regularly failed silently with an incremental pipeline that reported its own health. Support tickets about stale data went from roughly fifteen a month to almost none.\n\nI was also the person who introduced tests to that codebase. Not many, and not quickly, but enough that the next person could change things without fear.",
+   "heading": "Undergraduate Research Assistant, Bilkent University, Jun to Jul 2024",
+   "text": "Undergraduate Research Assistant, Bilkent University, Jun to Jul 2024. I carried out independent research into Topological Data Analysis with weekly academic supervision. I processed time-series data into structured topological representations and wrote an 18-page technical paper covering the methodology, implementation and findings.",
    "id": "experience-2",
-   "chars": 595
-  },
-  {
-   "file": "experience.md",
-   "heading": "Intern, Harbour Systems (2021)",
-   "text": "Intern, Harbour Systems (2021). Six months writing internal tooling. Mostly scripts. It taught me to read other people's code, which is most of the job.",
-   "id": "experience-3",
-   "chars": 152
+   "chars": 335
   },
   {
    "file": "projects.md",
-   "heading": "News triage assistant",
-   "text": "News triage assistant. A classifier and triage app for news items. It sorts an item into one of four categories, decides whether a question needs explaining or refusing, retrieves a relevant note from a small knowledge base, and records every run so the behaviour can be scored afterwards.\n\nThe interesting part is the config file. The prompt, the routing rules, the guardrails and the retrieval settings all live in one place in plain language, so changing behaviour does not mean changing code. I built it that way after watching non-engineers be unable to contribute to a system they understood perfectly well.\n\nScored 56.7 percent accuracy with a Cohen's kappa of 0.42 on the first pass. After fixing the prompt to name all four categories and to say what to do when two categories both fit, it went to 83 percent.\n\nStack: Python, Gradio, SQLite, Groq.",
+   "heading": "Fraud detection in Apache Spark (2025)",
+   "text": "Fraud detection in Apache Spark (2025). A distributed PySpark pipeline comparing four classification models for mobile-money fraud detection, on a sampled and heavily imbalanced subset of the 6.3 million transaction PaySim dataset. Because raw accuracy is misleading when fraud is rare, I evaluated with F1, recall and MCC instead. Random Forest reached an F1 score of 0.96. Gradient Boosted Trees matched it with perfect recall, catching every fraud case at a small cost in precision. I deliberately left out destination-balance features from an auxiliary regression task to avoid target leakage.",
    "id": "projects-1",
-   "chars": 856
+   "chars": 597
   },
   {
    "file": "projects.md",
-   "heading": "Text classification from scratch",
-   "text": "Text classification from scratch. A news topic classifier built without a framework: hand labelling, inter annotator agreement, TF-IDF features, logistic regression, confusion matrix.\n\nTwo things surprised me. First, my own labels disagreed with a second labeller about one time in five, which puts a hard ceiling on any accuracy claim. Second, a deliberately leaky split scored 1.000 on a 200 row pool, which is how I learned to be suspicious of a perfect number.\n\nStack: Python, scikit-learn, pandas.",
+   "heading": "Autonomous data analyst agent (2026)",
+   "text": "Autonomous data analyst agent (2026). An AI agent built on the Anthropic API that cleans messy data and answers plain-English questions against a live MySQL database by writing its own SQL. I added a second, independent validation layer whose only job is to catch the first layer's mistakes. It caught a real bug the agent had introduced itself: outlier-clipping logic that had silently corrupted a bounded rating column. I documented and fixed it rather than hiding it. The agent is deployed live with Streamlit and a cloud MySQL database.",
    "id": "projects-2",
-   "chars": 502
+   "chars": 540
   },
   {
    "file": "projects.md",
-   "heading": "This portfolio",
-   "text": "This portfolio. The site you are reading. A static page with a chat box that answers questions about me from my own notes. Retrieval runs in the browser, generation runs in a serverless function so the API key never reaches the client.\n\nStack: HTML, CSS, JavaScript, Vercel Functions, Groq.",
+   "heading": "MSc dissertation: topological data analysis meets NLP (2025)",
+   "text": "MSc dissertation: topological data analysis meets NLP (2025). I designed a framework that adds persistent homology to NLP models, including a differentiable topological loss inside a Skip-gram model, and ran a direct comparison of baseline against enhanced models to test whether the extra complexity was justified. The enhanced models improved F1 by up to 6.88 percent.",
    "id": "projects-3",
-   "chars": 290
+   "chars": 370
+  },
+  {
+   "file": "projects.md",
+   "heading": "Ground truth: measuring an AI labeller (2026)",
+   "text": "Ground truth: measuring an AI labeller (2026). For an AI and machine learning mentorship programme I hand-labelled 30 AG News headlines, had a language model label the same 30 through the Groq API, and compared both against the official benchmark labels. The model agreed with the benchmark on 25 of 30 items, a Cohen's kappa of 0.78, against my own 0.47. A simple TF-IDF and logistic regression model trained on 5,700 labelled examples did better than both, at 28 of 30. I also showed data leakage directly: the same model scored 1.00 when tested on data it had seen and 0.62 when tested honestly.",
+   "id": "projects-4",
+   "chars": 598
+  },
+  {
+   "file": "projects.md",
+   "heading": "Newsroom triage app (2026)",
+   "text": "Newsroom triage app (2026). A deployed news classification app on Render with a scoring page, retrieval from a small knowledge base, and guardrails, with tests running automatically on GitHub Actions. The supplied app scored 4 of 30. I traced that to two engine bugs: an 80-token limit that left the model no room to answer, and a kappa calculation that silently reported a perfect 1.0. Fixing them took it to 24 of 30, and my prompt took it to 25 of 30 with a kappa of 0.78. I also added a second-opinion feature for low-confidence answers, with tests, taking the suite to 19 passing tests.",
+   "id": "projects-5",
+   "chars": 591
+  },
+  {
+   "file": "projects.md",
+   "heading": "Gaussian process regression for education data (2025)",
+   "text": "Gaussian process regression for education data (2025). I compared Gaussian process regression against linear, lasso and ridge regression for predicting student grades from 32 features. The Gaussian process did not win on raw accuracy, but its uncertainty estimates let me flag at-risk students only when the model was both pessimistic and confident, which the linear models could not do.",
+   "id": "projects-6",
+   "chars": 387
+  },
+  {
+   "file": "projects.md",
+   "heading": "NLP stance detection (2025)",
+   "text": "NLP stance detection (2025). A pipeline classifying viewpoints in text on the SemEval-2016 dataset, comparing SVM, naive Bayes and perceptron models against CNN, LSTM and transformer architectures, and judging which approach was justified once performance, interpretability and cost were weighed together.",
+   "id": "projects-7",
+   "chars": 305
   },
   {
    "file": "skills.md",
-   "heading": "Languages",
-   "text": "Languages. Python is my main language and the one I am fastest in. JavaScript second, mostly for front ends and serverless functions. SQL well enough to read a query plan and fix the obvious problem.",
+   "heading": "Programming",
+   "text": "Programming. Python is my main language and the one I use most, at an advanced level. I use SQL at an intermediate level, R for project work, and Git for version control.",
    "id": "skills-1",
-   "chars": 199
+   "chars": 170
   },
   {
    "file": "skills.md",
-   "heading": "Retrieval and evaluation",
-   "text": "Retrieval and evaluation. Chunking strategies and why they matter more than people expect. Keyword versus dense retrieval, and when the cheaper one is good enough. Cosine similarity. Building labelled evaluation sets. Inter annotator agreement with Cohen's kappa. LLM as judge, including the part where you check the judge against human labels before trusting it.",
+   "heading": "Machine learning and statistics",
+   "text": "Machine learning and statistics. Supervised classification with random forests, gradient boosted trees and logistic regression. Bayesian and Gaussian process regression. Model evaluation under class imbalance using F1, MCC and recall, and inter-rater agreement with Cohen's kappa.",
    "id": "skills-2",
-   "chars": 363
+   "chars": 280
   },
   {
    "file": "skills.md",
-   "heading": "Infrastructure",
-   "text": "Infrastructure. Vercel and Render for deployment. PostgreSQL, including Neon. GitHub Actions for CI. Docker to the level of writing a working Dockerfile, not to the level of running a cluster.",
+   "heading": "Data and deployment",
+   "text": "Data and deployment. Apache Spark (PySpark) pipelines on large datasets, MySQL, and pandas and scikit-learn. I have deployed apps on Render, Vercel and Streamlit, and set up continuous integration with GitHub Actions.",
    "id": "skills-3",
-   "chars": 192
+   "chars": 217
   },
   {
    "file": "skills.md",
-   "heading": "Models and tools",
-   "text": "Models and tools. Groq for inference. Langfuse for tracing and scoring. scikit-learn for classical baselines, which are still the right first move more often than not.",
+   "heading": "Language models",
+   "text": "Language models. Building with the Anthropic and Groq APIs, prompt design measured against labelled data, retrieval over my own notes, and guardrails.",
    "id": "skills-4",
-   "chars": 167
+   "chars": 150
   },
   {
    "file": "skills.md",
-   "heading": "What I am still learning",
-   "text": "What I am still learning. Agent frameworks beyond simple tool calling. I have built tool loops by hand and want to understand what the frameworks actually buy you. Also Kubernetes, which I keep deferring.",
+   "heading": "Spoken languages",
+   "text": "Spoken languages. I speak English, Arabic and Somali fluently. I am learning Korean at an intermediate level and Japanese as a beginner.",
    "id": "skills-5",
-   "chars": 204
+   "chars": 136
+  },
+  {
+   "file": "skills.md",
+   "heading": "Still learning",
+   "text": "Still learning. Dense embeddings and vector databases, Docker, and Korean reading fluency.",
+   "id": "skills-6",
+   "chars": 90
   }
  ]
 }

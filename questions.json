@@ -1,95 +1,95 @@
 {
-  "note": "20 questions. 10 answerable from the four default files in the notes' own words. 3 answerable only from content/faq.md, which config.js leaves switched off. 2 that cannot be answered at all and must be refused. 5 paraphrases that share almost no words with the notes, which is where counting words stops working.",
+  "note": "20 questions written for Hamsa's own notes. 10 answerable from about, experience, projects and skills. 3 answerable only from faq.md. 2 that must be refused. 5 paraphrases that share few words with the notes.",
   "questions": [
     {
       "id": 1,
       "kind": "answerable",
       "q": "Where are you based?",
       "expect_any": [
-        "bangalore"
+        "birmingham"
       ]
     },
     {
       "id": 2,
       "kind": "answerable",
-      "q": "What did splitting documents on headings do for accuracy?",
+      "q": "What did you study?",
       "expect_any": [
-        "14 points",
-        "fourteen points",
-        "14"
+        "mathematics",
+        "data science"
       ]
     },
     {
       "id": 3,
       "kind": "answerable",
-      "q": "What accuracy did the support assistant start at and reach?",
+      "q": "What F1 score did the fraud detection project reach?",
       "expect_any": [
-        "61",
-        "84"
+        "0.96"
       ]
     },
     {
       "id": 4,
       "kind": "answerable",
-      "q": "What is your main programming language?",
+      "q": "What does the autonomous data analyst agent do?",
       "expect_any": [
-        "python"
+        "sql",
+        "validation"
       ]
     },
     {
       "id": 5,
       "kind": "answerable",
-      "q": "What did you work on at Harbour Systems?",
+      "q": "What was your MSc dissertation about?",
       "expect_any": [
-        "logistics",
-        "dashboard"
+        "topological",
+        "persistent homology"
       ]
     },
     {
       "id": 6,
       "kind": "answerable",
-      "q": "What happened to the tickets about stale data?",
+      "q": "What kappa did the model reach against the benchmark in the ground truth project?",
       "expect_any": [
-        "fifteen",
-        "almost none",
-        "15"
+        "0.78"
       ]
     },
     {
       "id": 7,
       "kind": "answerable",
-      "q": "Tell me about the news triage assistant project.",
+      "q": "What engine bugs did you find in the newsroom triage app?",
       "expect_any": [
-        "triage",
-        "four categories",
-        "categories"
+        "80-token",
+        "token limit",
+        "kappa"
       ]
     },
     {
       "id": 8,
       "kind": "answerable",
-      "q": "What kappa did the triage project score?",
+      "q": "What do you do at Draexlmaier?",
       "expect_any": [
-        "0.42",
-        "kappa"
+        "production",
+        "jaguar land rover",
+        "jlr"
       ]
     },
     {
       "id": 9,
       "kind": "answerable",
-      "q": "What are you still learning?",
+      "q": "Which deployment platforms have you used?",
       "expect_any": [
-        "agent framework",
-        "kubernetes"
+        "render",
+        "vercel",
+        "streamlit"
       ]
     },
     {
       "id": 10,
       "kind": "answerable",
-      "q": "Which deployment platforms have you used?",
+      "q": "What are you still learning?",
       "expect_any": [
-        "vercel",
-        "render"
+        "embeddings",
+        "vector databases",
+        "docker"
       ]
     },
     {
@@ -97,26 +97,25 @@
       "kind": "needs_faq",
       "q": "What is your notice period?",
       "expect_any": [
-        "thirty days",
-        "30 days"
+        "one week",
+        "1 week"
       ]
     },
     {
       "id": 12,
       "kind": "needs_faq",
-      "q": "Can you share a reference?",
+      "q": "Do you need visa sponsorship?",
       "expect_any": [
-        "on request",
-        "manager"
+        "indefinite leave",
+        "do not need sponsorship"
       ]
     },
     {
       "id": 13,
       "kind": "needs_faq",
-      "q": "Can you overlap with European hours?",
+      "q": "Can you share a reference?",
       "expect_any": [
-        "european",
-        "overlap"
+        "on request"
       ]
     },
     {
@@ -136,8 +135,8 @@
       "kind": "paraphrase",
       "q": "How soon could you start?",
       "expect_any": [
-        "thirty days",
-        "30 days"
+        "one week",
+        "1 week"
       ]
     },
     {
@@ -145,7 +144,7 @@
       "kind": "paraphrase",
       "q": "What city do you live in?",
       "expect_any": [
-        "bangalore"
+        "birmingham"
       ]
     },
     {
@@ -159,20 +158,19 @@
     {
       "id": 19,
       "kind": "paraphrase",
-      "q": "Did you ever repair a job that failed quietly overnight?",
+      "q": "Did your agent ever catch a mistake of its own?",
       "expect_any": [
-        "nightly",
-        "batch",
-        "silently"
+        "outlier",
+        "rating column",
+        "bug"
       ]
     },
     {
       "id": 20,
       "kind": "paraphrase",
-      "q": "Do you work from home?",
+      "q": "Would you move for a job?",
       "expect_any": [
-        "remotely",
-        "remote"
+        "relocat"
       ]
     }
   ]

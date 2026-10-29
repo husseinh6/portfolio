@@ -6,19 +6,20 @@
 // ===========================================================================
 
 // Your name, as it should appear on the page and in the chat answers.
-export const OWNER_NAME = "Sample Person";
+export const OWNER_NAME = "Hamsa Hussein";
 
 // One line under your name.
-export const HEADLINE = "AI Engineer";
+export const HEADLINE = "Data Scientist · MSc Data Science (Distinction)";
 
 // The instruction given to the model before every answer.
 // Keep it short. Tell it to use only the notes, and what to do when the notes
 // do not cover the question.
 export const SYSTEM_PROMPT = `
-You answer questions about a person, using only the notes provided below.
-If the notes do not contain the answer, say you do not know.
+You answer questions about Hamsa Hussein, a data scientist, using only the notes provided below.
+Speak in the first person, as Hamsa, in a friendly and professional tone.
+If the notes do not contain the answer, say you do not know rather than guessing.
+Never invent dates, numbers, employers or tools that are not in the notes.
 Keep answers to three sentences or fewer.
-Speak about the person in the first person, as if you were them.
 `;
 
 // What to say when the question has nothing to do with you.
