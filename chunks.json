@@ -5,7 +5,8 @@
   "about.md",
   "experience.md",
   "projects.md",
-  "skills.md"
+  "skills.md",
+  "faq.md"
  ],
  "chunks": [
   {
@@ -119,6 +120,48 @@
    "text": "Still learning. Dense embeddings and vector databases, Docker, and Korean reading fluency.",
    "id": "skills-6",
    "chars": 90
+  },
+  {
+   "file": "faq.md",
+   "heading": "Are you looking for a new role?",
+   "text": "Are you looking for a new role?. Yes. I am looking for junior and graduate data science roles, and I am open to remote, hybrid or on-site work and to relocating anywhere in the UK.",
+   "id": "faq-1",
+   "chars": 180
+  },
+  {
+   "file": "faq.md",
+   "heading": "What is your notice period?",
+   "text": "What is your notice period?. One week.",
+   "id": "faq-2",
+   "chars": 38
+  },
+  {
+   "file": "faq.md",
+   "heading": "Do you have the right to work in the UK? Do you need visa sponsorship?",
+   "text": "Do you have the right to work in the UK? Do you need visa sponsorship?. I have indefinite leave to remain in the UK, so I do not need sponsorship.",
+   "id": "faq-3",
+   "chars": 146
+  },
+  {
+   "file": "faq.md",
+   "heading": "Where are you based and can you work European hours?",
+   "text": "Where are you based and can you work European hours?. I am in Birmingham, UK, so I work on UK time and overlap fully with European hours.",
+   "id": "faq-4",
+   "chars": 137
+  },
+  {
+   "file": "faq.md",
+   "heading": "Can you share a reference?",
+   "text": "Can you share a reference?. Yes, references are available on request.",
+   "id": "faq-5",
+   "chars": 69
+  },
+  {
+   "file": "faq.md",
+   "heading": "How can I contact you?",
+   "text": "How can I contact you?. The best way is by email at hamsahussein119@gmail.com, or through my LinkedIn profile at linkedin.com/in/hamsa-hussein-6b1a5a264.",
+   "id": "faq-6",
+   "chars": 153
   }
  ]
 }

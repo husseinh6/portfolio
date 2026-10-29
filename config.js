@@ -37,6 +37,7 @@ export const CONTENT_FILES = [
   "experience.md",
   "projects.md",
   "skills.md",
+  "faq.md",
 ];
 
 // How many passages to send to the model.
